@@ -5,6 +5,10 @@
   src: url("fonts/Chomsky.woff") format('woff');
 }
 
+html {
+  font-size: 20px;
+}
+
 /* HEADER */
 
 ul {
@@ -19,20 +23,45 @@ h1 {
   font-family: nyt-cheltenham,georgia,'times new roman',times,serif;
   font-style: italic;
   border-bottom: 1px solid gray;
-  padding: 0.5em;
+  padding: 0.5rem;
 }
 
 .icon-bar {
-  margin: 0 0.3em;
+  margin: 0 0.3rem;
 }
 
 .circle {
   background: #eeeeee;
-  width: 1.2em;
-  height: 1em;
+  width: 1.2rem;
+  height: 1rem;
   border-radius: 50%;
   text-align: center;
-  line-height: 1.5em;
+  line-height: 1.5rem;
   vertical-align: middle;
-  padding: 0.5em;
+  padding: 0.5rem;
+}
+
+/* ARTICLE SECTION */
+
+.main-photo {
+  height: auto;
+  max-width: 100%;
+}
+
+.main-photo figcaption {
+  font-family: nyt-imperial,georgia,'times new roman',times,serif;
+  font-size: 1.2rem;
+}
+
+.main-photo figcaption span {
+  font-size: 1.1rem;
+  color: #888;
+}
+
+.main-article > p:first-of-type {
+  font-weight: bold;
+}
+
+.main-article p {
+  font-size: 1.25rem;
 }
