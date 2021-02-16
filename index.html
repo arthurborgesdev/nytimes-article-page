@@ -5,6 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./styles.css">
+  <link rel="shortcut icon" href="img/favicon.ico">
   <title>Space Ripples Reveal Big Bang's Smoking Gun - The New York Times</title>
 </head>
 <body>
@@ -19,13 +20,13 @@
               SPACE & COSMOS
             </a>
           </li>
-          <li id="nyt-title">
+          <li class="nyt-title">
             <a href="https://www.nytimes.com/">
               The New York Times
             </a>
           </li>
-          <li><button>Subscribe Now</button></li>
-          <li><button>Log In</button></li>
+          <li><button onclick="location.href='https://www.nytimes.com/subscription?campaignId=797YR'">Subscribe Now</button></li>
+          <li><button onclick="location.href='https://myaccount.nytimes.com/auth/login?response_type=cookie&client_id=vi'">Log In</button></li>
         </ul>
       </nav>
       <h1>Space Ripples Reveal Big Bang's Smoking Gun</h1>
@@ -357,11 +358,11 @@
         <a href="https://www.nytimes.com/subscriptions/Multiproduct/lp8HYKU.html?campaignId=48JQY">Subscribe</a>
       </p>
       <button>Read 615 Comments</button>
-      <i>facebook</i>
-      <i>whatsapp</i>
-      <i>twitter</i>
-      <i>email</i>
-      <i>share</i>
+      <i class="fab fa-facebook-f icon-bar circle"></i>
+      <i class="fab fa-whatsapp icon-bar circle"></i>
+      <i class="fab fa-twitter icon-bar circle"></i>
+      <i class="fas fa-envelope icon-bar circle"></i>
+      <i class="fas fa-share icon-bar circle"></i>
     </article>
     <section>
       <h2>Suggested newsletters for you</h2>
@@ -369,7 +370,7 @@
       <div>
         <div>
           <img src="./img/suggested/TheMorning-Icon.png" alt="The morning Logo">
-          <button><i>plus sign</i></button>
+          <button><i class="fas fa-plus-circle"></i></button>
           <span>DAILY</span>
           <h3>The Morning</h3>
           <p>
@@ -380,7 +381,7 @@
         </div>
         <div>
           <img src="./img/suggested/Breaking.png" alt="The Breaking news logo">
-          <button><i>plus sign</i></button>
+          <button><i class="fas fa-plus-circle"></i></button>
           <span>AS NEEDED</span>
           <h3>Breaking News</h3>
           <p>
@@ -390,7 +391,7 @@
         </div>
         <div>
           <img src="./img/suggested/NYT-AtHome-Icon-REV.png" alt="The At Home Logo">
-          <button><i>plus sign</i></button>
+          <button><i class="fas fa-plus-circle"></i></button>
           <span>WEEKLY</span>
           <h3>At Home</h3>
           <p>
@@ -573,8 +574,8 @@
       </p>
     </aside>
     <footer>
-      <h2>The New York Times</h2>
-      <a href="https://www.nytimes.com">Go to Home Page »</a>
+      <h2 class="nyt-title">The New York Times</h2>
+      <a class="home-page" href="https://www.nytimes.com">Go to Home Page »</a>
       <section>
         <div>
           <h3>NEWS</h3>
@@ -652,16 +653,16 @@
         <div>
           <h3>SUBSCRIBE</h3>
           <a href="https://www.nytimes.com/hdleftnav">
-            <i>mailbox</i>Home delivery
+            <i class="far fa-newspaper subscribe-icon"></i> Home delivery
           </a>
           <a href="https://www.nytimes.com/digitalleftnav">
-            <i>Times T letter</i>Digital Subscriptions
+            <img class="t-icon"src="img/favicon.ico" alt="T icon of New York Times">Digital Subscriptions
           </a>
           <a href="https://www.nytimes.com/subscription/games?campaignId=9LRLQ">
-            <i>Board</i>Games
+            <i class="fas fa-chess-board subscribe-icon"></i> Games
           </a>
           <a href="https://www.nytimes.com/subscription/cooking.html">
-            <i>Fork and Knife</i>Cooking
+            <i class="fas fa-utensils subscribe-icon"></i> Cooking
           </a>
           <a href="https://www.nytimes.com/newsletters">Email Newsletters</a>
           <a href="https://www.nytimes.com/corporateleftnav">Corporate Subscriptions</a>
@@ -676,7 +677,7 @@
           </div>
         </div>
       </section>
-      <div>
+      <div class="lined-links">
         <a href="https://help.nytimes.com/hc/en-us/articles/115014792127-Copyright-notice">
           © 2021 The New York Times Company
         </a>
@@ -721,10 +722,10 @@
         </a>
       </div>
     </footer>
-    <div>
+    <div class="expand-bar">
       <span>Access more of The Times by creating a free account or loggind in.</span>
       <span>EXPAND</span>
-      <i>arrow up</i>
+      <i class="fas fa-chevron-up"></i>
     </div>
   </main>
   <script src="https://kit.fontawesome.com/382832813c.js" crossorigin="anonymous"></script>

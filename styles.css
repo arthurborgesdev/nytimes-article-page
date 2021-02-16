@@ -11,11 +11,26 @@ html {
 
 /* HEADER */
 
+nav a {
+  text-decoration: none;
+  color: #000;
+}
+
 ul {
   list-style-type: none;
 }
 
-#nyt-title {
+ul li:nth-child(3) a {
+  font-family: Arial;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+ul li:nth-child(4) a {
+  font-size: 1.2rem;
+}
+
+.nyt-title {
   font-family: "NYT";
 }
 
@@ -64,4 +79,38 @@ h1 {
 
 .main-article p {
   font-size: 1.25rem;
+}
+
+/* FOOTER */
+
+.home-page {
+  color:cornflowerblue;
+}
+
+footer a {
+  text-decoration: none;
+  color: #000;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+.subscribe-icon {
+  color: #000;
+}
+
+.t-icon {
+  height: 1rem;
+  width: 1rem;
+}
+
+.lined-links a {
+  color: #888;
+  margin: 0 0.7rem;
+  font-size: 0.6rem;
+}
+
+.expand-bar {
+  height: 2rem;
 }
