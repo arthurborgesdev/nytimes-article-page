@@ -1,0 +1,38 @@
+/* FONTS */
+
+@font-face {
+  font-family: "NYT";
+  src: url("fonts/Chomsky.woff") format('woff');
+}
+
+/* HEADER */
+
+ul {
+  list-style-type: none;
+}
+
+#nyt-title {
+  font-family: "NYT";
+}
+
+h1 {
+  font-family: nyt-cheltenham,georgia,'times new roman',times,serif;
+  font-style: italic;
+  border-bottom: 1px solid gray;
+  padding: 0.5em;
+}
+
+.icon-bar {
+  margin: 0 0.3em;
+}
+
+.circle {
+  background: #eeeeee;
+  width: 1.2em;
+  height: 1em;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 1.5em;
+  vertical-align: middle;
+  padding: 0.5em;
+}
