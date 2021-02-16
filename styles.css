@@ -11,6 +11,10 @@ html {
 
 /* HEADER */
 
+nav {
+  border-bottom: 1px solid gray;
+}
+
 nav a {
   text-decoration: none;
   color: #000;
@@ -28,6 +32,18 @@ ul li:nth-child(3) a {
 
 ul li:nth-child(4) a {
   font-size: 1.2rem;
+}
+
+ul li:nth-child(5) button,
+ul li:nth-child(6) button {
+  color: #fff;
+  font-size: 0.6rem;
+  font-weight: bold;
+  height: 1.4rem;
+  width: auto;
+  background-color: #567b95;
+  border-color: #326891;
+  border-radius: 0.15rem;
 }
 
 .nyt-title {
@@ -48,12 +64,12 @@ h1 {
 .circle {
   background: #eeeeee;
   width: 1.2rem;
-  height: 1rem;
+  height: 0.8rem;
   border-radius: 50%;
   text-align: center;
-  line-height: 1.5rem;
+  line-height: 0.1rem;
   vertical-align: middle;
-  padding: 0.5rem;
+  padding: 0.3rem;
 }
 
 /* ARTICLE SECTION */
