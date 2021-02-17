@@ -26,11 +26,11 @@ nav {
   margin: 0 1rem;
 }
 
-.header a {
+.space-header a {
   text-decoration: none;
   color: #000;
   font-family: Arial;
-  font-size: 1rem;
+  font-size: 0.7rem;
   font-weight: bold;
   margin: 0 1rem;
 }
@@ -61,6 +61,7 @@ nav {
   flex-direction: column;
   align-items: center;
   width: auto;
+  justify-content: space-around;
 }
 
 .article-title {
@@ -92,7 +93,6 @@ h1 {
   height: 0.8rem;
   border-radius: 50%;
   text-align: center;
-  line-height: 0.1rem;
   vertical-align: middle;
   padding: 0.3rem;
 }
