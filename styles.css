@@ -71,7 +71,7 @@ nav {
 }
 
 h1 {
-  font-family: nyt-cheltenham,georgia,'times new roman',times,serif;
+  font-family: nyt-cheltenham, georgia, 'times new roman', times, serif;
   font-style: italic;
   border-bottom: 1px solid lightgray;
   padding: 0.5rem;
@@ -106,23 +106,23 @@ h1 {
 }
 
 .main-photo {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  display: inline-block;
+  text-align: center;
 }
 
 .main-photo img {
   width: 62vw;
-  margin: 0 auto;
 }
 
 .main-photo figcaption {
-  font-family: nyt-imperial,georgia,'times new roman',times,serif;
-  font-size: 1.2rem;
+  font-family: nyt-imperial, georgia, 'times new roman', times, serif;
+  font-size: 0.8rem;
+  text-align: justify;
+  margin-top: 0.4rem;
 }
 
 .main-photo figcaption span {
-  font-size: 1.1rem;
+  font-size: 0.8rem;
   color: #888;
 }
 
