@@ -132,6 +132,11 @@ h1 {
 
 /* ARTICLE SECTION */
 
+.article-link {
+  color: cornflowerblue;
+  text-decoration: none;
+}
+
 .part-one {
   display: grid;
   grid-template-columns: [left-panel-start] 35vw [left-panel-end] 30vw [right-panel-start] 35vw [right-panel-end];
