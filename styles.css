@@ -141,6 +141,11 @@ h1 {
   font-size: 1rem;
 }
 
+h4 {
+  font-weight: normal;
+  font-size: 0.8rem;
+}
+
 .nyt-advert:before, 
 .nyt-advert:after {
   content: "";
