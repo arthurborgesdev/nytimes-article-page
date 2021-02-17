@@ -67,7 +67,6 @@ nav {
 .article-title {
   display: flex;
   flex-direction: column;
-  justify-content: center;
 }
 
 h1 {
@@ -130,7 +129,7 @@ h1 {
 
 .part-one {
   display: grid;
-  grid-template-columns: [left-panel-start] 30vw [left-panel-end] 40vw [right-panel-start] 30vw [right-panel-end];
+  grid-template-columns: [left-panel-start] 35vw [left-panel-end] 30vw [right-panel-start] 35vw [right-panel-end];
 }
 
 .mid-panel-one > p:first-of-type {
@@ -146,13 +145,58 @@ h1 {
 }
 
 .mid-panel-one p {
-  font-size: 1.25rem;
+  font-size: 1rem;
+}
+
+.nyt-advert {
+  
 }
 
 .part-two {
   display: grid;
   grid-template-columns: [left-panel-start] 30vw [left-panel-end] 40vw [right-panel-start] 30vw [right-panel-end];
 }
+
+/* ASIDE */
+
+.right-panel {
+  margin: 1rem 2rem;
+}
+
+.right-panel h4 {
+  font-weight: bold;
+  border-bottom: 1px solid lightgray;
+  text-align: justify;
+  margin: 1rem;
+  padding-bottom: 0.5rem;
+}
+
+.editors-box {
+  display: flex;
+  margin: 1rem;
+}
+
+.editors-box img {
+  width: 10vh;
+  margin-right: 0.8rem;
+}
+
+.editors-box p span {
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.5rem;
+}
+
+.paid-post {
+  background-color: rgb(245, 245, 245);
+}
+
+.paid-post p {
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.5rem;
+}
+
 
 /* FOOTER */
 
