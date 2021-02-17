@@ -141,6 +141,17 @@ h1 {
   font-size: 1rem;
 }
 
+.nyt-advert:before, 
+.nyt-advert:after {
+  content: "";
+  display: block;
+  width: 4rem;
+  height: 0.05rem;
+  background: lightgray;
+  margin: 0.05rem auto;
+
+}
+
 .nyt-advert p {
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
