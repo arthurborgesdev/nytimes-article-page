@@ -367,17 +367,22 @@ h4 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 75vh;
+  width: 60vh;
   margin-left: 0;
   margin-right: 0;
 }
 
 .telescope-photo img {
-  width: 75vh;
+  width: 60vh;
 }
 
 .telescope-photo figcaption {
   text-align: justify;
+  font-size: 0.7rem;
+}
+
+.telescope-photo figcaption span {
+  color: gray;
 }
 
 /* SUGGESTED */
