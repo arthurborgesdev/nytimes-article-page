@@ -172,6 +172,10 @@ h1 {
   font-size: 0.5rem;
 }
 
+.yt-video figcaption span {
+  color: gray;
+}
+
 .mid-panel-one > p:first-of-type span {
   text-decoration: underline;
 }
@@ -215,11 +219,68 @@ h1 {
 
 .part-two {
   display: grid;
-  grid-template-columns: [left-panel-start] 30vw [left-panel-end] 40vw [right-panel-start] 30vw [right-panel-end];
+  grid-template-columns: [left-panel-start] 35vw [left-panel-end] 30vw [right-panel-start] 35vw [right-panel-end];
 }
 
-.part-two figure iframe {
+.yt-video {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.yt-video iframe {
   border: none;
+}
+
+.yt-video figcaption {
+  font-size: 0.8rem;
+}
+
+.telescope-photo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 75vh;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.telescope-photo img {
+  width: 75vh;
+}
+
+.telescope-photo figcaption {
+  text-align: justify;
+}
+
+/* SUGGESTED */
+
+.additional-articles {
+  display: flex;
+}
+
+.left-panel-adt {
+  display: flex;
+  flex-direction: column;
+}
+
+.suggested-line {
+  display: flex;
+  justify-content: space-between;
+  margin: 0.5rem 0;
+}
+
+.suggested-line h2 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.suggestion img {
+  width: 7vh;
+}
+
+.right-panel-adt {
+  display: flex;
+  flex-direction: column;
 }
 
 /* ASIDE */
