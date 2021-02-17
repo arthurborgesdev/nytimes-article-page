@@ -285,6 +285,7 @@ h1 {
   margin-right: auto;
   text-align: justify;
   width: 46vw;
+  margin-bottom: 1.2rem;
 }
 
 .infographic h2 {
@@ -298,6 +299,18 @@ h1 {
 .infographic .description {
   width: 10vw;
   font-size: 0.6rem;
+}
+
+.infographic span {
+  font-size: 0.7rem;
+}
+
+.infographic .quote:before {
+  display: block;
+  text-align: justify;
+  margin-top: 1rem;
+  content: "_________";
+  padding-bottom: 0.8rem; 
 }
 
 .part-two {
