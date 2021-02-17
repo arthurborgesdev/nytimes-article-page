@@ -106,13 +106,14 @@ h1 {
 }
 
 .main-photo {
-  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .main-photo img {
-  text-align: center;
-  height: auto;
-  width: 60vw;
+  width: 62vw;
+  margin: 0 auto;
 }
 
 .main-photo figcaption {
