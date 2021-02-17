@@ -26,17 +26,22 @@ nav {
   margin: 0 1rem;
 }
 
+footer a {
+  text-decoration: none;
+  color: #000;
+}
+
 .space-header a {
   text-decoration: none;
   color: #000;
-  font-family: Arial;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 0.7rem;
   font-weight: bold;
   margin: 0 1rem;
 }
 
 .nyt-title {
-  font-family: "NYT";
+  font-family: "NYT", Helvetica, sans-serif;
 }
 
 .nyt-title a {
@@ -57,7 +62,7 @@ nav {
 }
 
 .title-and-icons {
-  display:flex;
+  display: flex;
   flex-direction: column;
   align-items: center;
   width: auto;
@@ -87,7 +92,7 @@ h1 {
 }
 
 .circle {
-  background: #eeeeee;
+  background: #eee;
   width: 1rem;
   height: 0.8rem;
   border-radius: 50%;
@@ -132,18 +137,6 @@ h1 {
   grid-template-columns: [left-panel-start] 35vw [left-panel-end] 30vw [right-panel-start] 35vw [right-panel-end];
 }
 
-.mid-panel-one > p:first-of-type {
-  font-weight: bold;
-}
-
-.mid-panel-one > p:first-of-type span {
-  text-decoration: underline;
-}
-
-.mid-panel-one > p:first-of-type span:hover {
-  text-decoration: none;
-}
-
 .mid-panel-one p {
   font-size: 1rem;
 }
@@ -154,8 +147,37 @@ h1 {
   font-size: 0.6rem;
 }
 
+.infographic p {
+  margin-top: 0;
+  font-size: 0.7rem;
+}
+
+.paid-post p {
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.5rem;
+}
+
+.mid-panel-one > p:first-of-type {
+  font-weight: bold;
+}
+
 .nyt-advert p span {
   font-weight: bold;
+}
+
+.editors-box p span {
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.5rem;
+}
+
+.mid-panel-one > p:first-of-type span {
+  text-decoration: underline;
+}
+
+.mid-panel-one > p:first-of-type span:hover {
+  text-decoration: none;
 }
 
 .nyt-advert a {
@@ -168,6 +190,8 @@ h1 {
   font-size: 1rem;
 }
 
+/* INFOGRAPHIC */
+
 .infographic {
   margin-left: auto;
   margin-right: auto;
@@ -177,11 +201,6 @@ h1 {
 
 .infographic h2 {
   margin-bottom: 0.3rem;
-}
-
-.infographic p {
-  margin-top: 0;
-  font-size: 0.7rem;
 }
 
 .infographic img {
@@ -197,6 +216,10 @@ h1 {
 .part-two {
   display: grid;
   grid-template-columns: [left-panel-start] 30vw [left-panel-end] 40vw [right-panel-start] 30vw [right-panel-end];
+}
+
+.part-two figure iframe {
+  border: none;
 }
 
 /* ASIDE */
@@ -223,32 +246,20 @@ h1 {
   margin-right: 0.8rem;
 }
 
-.editors-box p span {
-  font-weight: bold;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 0.5rem;
-}
-
 .paid-post {
   background-color: rgb(245, 245, 245);
 }
 
-.paid-post p {
-  font-weight: bold;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 0.5rem;
-}
-
-
 /* FOOTER */
 
 .home-page {
-  color:cornflowerblue;
+  color: cornflowerblue;
 }
 
-footer a {
-  text-decoration: none;
-  color: #000;
+.lined-links a {
+  color: #888;
+  margin: 0 0.7rem;
+  font-size: 0.6rem;
 }
 
 footer a:hover {
@@ -262,12 +273,6 @@ footer a:hover {
 .t-icon {
   height: 1rem;
   width: 1rem;
-}
-
-.lined-links a {
-  color: #888;
-  margin: 0 0.7rem;
-  font-size: 0.6rem;
 }
 
 .expand-bar {
