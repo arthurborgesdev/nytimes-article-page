@@ -164,6 +164,36 @@ h1 {
   color: cornflowerblue;
 }
 
+.inner-titles {
+  font-size: 1rem;
+}
+
+.infographic {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: justify;
+  width: 46vw;
+}
+
+.infographic h2 {
+  margin-bottom: 0.3rem;
+}
+
+.infographic p {
+  margin-top: 0;
+  font-size: 0.7rem;
+}
+
+.infographic img {
+  width: 46vw;
+}
+
+.infographic-grid {
+  display: grid;
+  grid-template-columns: [start-col] 10vw [second-col] 10vw [third-col] 10vw [fourth-col] 10vw [end-col];
+  grid-template-rows: [start-row] 10vh [second-row] 10vh [third-row] 10vh [fourth-row] 10vh [end-row];
+}
+
 .part-two {
   display: grid;
   grid-template-columns: [left-panel-start] 30vw [left-panel-end] 40vw [right-panel-start] 30vw [right-panel-end];
