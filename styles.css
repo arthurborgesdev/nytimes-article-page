@@ -176,6 +176,90 @@ h1 {
   color: gray;
 }
 
+.infographic-image {
+  position: relative;
+}
+
+.infographic .universe {
+  position: absolute;
+  top: 14vh;
+  left: 0;
+}
+
+.infographic .universe span {
+  font-weight: bold;
+}
+
+.infographic .enough-time {
+  position: absolute;
+  top: 14vh;
+  left: 23vh;
+}
+
+.infographic .enough-time span {
+  font-weight: bold;
+}
+
+.infographic .distant-coffee {
+  position: absolute;
+  top: 14vh;
+  left: 46vh;
+}
+
+.infographic .distant-coffee span {
+  font-weight: bold;
+}
+
+.infographic .coffee-everywhere {
+  position: absolute;
+  top: 14vh;
+  left: 70vh;
+}
+
+.infographic .coffee-everywhere span {
+  font-weight: bold;
+}
+
+.infographic .still-not {
+  position: absolute;
+  top: 40vh;
+  left: 0;
+}
+
+.infographic .still-not span {
+  font-weight: bold;
+}
+
+.infographic .inflation {
+  position: absolute;
+  top: 40vh;
+  left: 23vh;
+}
+
+.infographic .inflation span {
+  font-weight: bold;
+}
+
+.infographic .fluctuation {
+  position: absolute;
+  top: 40vh;
+  left: 46vh;
+}
+
+.infographic .fluctuation span {
+  font-weight: bold;
+}
+
+.infographic .expansion {
+  position: absolute;
+  top: 40vh;
+  left: 70vh;
+}
+
+.infographic .expansion span {
+  font-weight: bold;
+}
+
 .mid-panel-one > p:first-of-type span {
   text-decoration: underline;
 }
@@ -211,10 +295,9 @@ h1 {
   width: 46vw;
 }
 
-.infographic-grid {
-  display: grid;
-  grid-template-columns: [start-col] 10vw [second-col] 10vw [third-col] 10vw [fourth-col] 10vw [end-col];
-  grid-template-rows: [start-row] 10vh [second-row] 10vh [third-row] 10vh [fourth-row] 10vh [end-row];
+.infographic .description {
+  width: 10vw;
+  font-size: 0.6rem;
 }
 
 .part-two {
