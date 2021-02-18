@@ -441,6 +441,7 @@ h4 {
 .suggested {
   border-top: 1px solid black;
   margin-right: 0.7rem;
+  padding-top: 0.5rem;
 }
 
 .suggested-line {
@@ -462,16 +463,54 @@ h4 {
 
 .suggestion-row {
   display: flex;
+  justify-content: space-between;
 }
 
 .suggestion {
   border: 1px solid lightgray;
   padding: 0.7rem;
+  width: 20vh;
+}
+
+.suggestion.daily {
   margin-right: 0.7rem;
+}
+
+.suggestion.weekly {
+  margin-left: 0.7rem;
 }
 
 .suggestion img {
   width: 7vh;
+}
+
+.suggestion h3 {
+  font-size: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 0;
+}
+
+.suggestion p {
+  font-size: 0.75rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.suggestion .sub {
+  font-size: 0.6rem;
+  margin: 0;
+}
+
+.suggestion a {
+  text-decoration: none;
+  color: cornflowerblue;
+  font-size: 0.7rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.suggestion i {
+  float: right;
+  outline: none;
 }
 
 .right-panel-adt {
