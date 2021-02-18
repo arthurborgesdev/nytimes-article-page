@@ -1,0 +1,812 @@
+/* FONTS */
+
+@font-face {
+  font-family: "NYT";
+  src: url("fonts/Chomsky.woff") format('woff');
+}
+
+html {
+  font-size: 20px;
+}
+
+/* HEADER */
+
+nav {
+  top: 0;
+  position: fixed;
+  width: 100%;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 1px solid lightgray;
+  padding: 0.5rem 0;
+}
+
+.fa-bars {
+  margin: 0 1rem;
+}
+
+footer a {
+  text-decoration: none;
+  color: #000;
+}
+
+.space-header a {
+  text-decoration: none;
+  color: #000;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.7rem;
+  font-weight: bold;
+  margin: 0 1rem;
+}
+
+.nyt-title {
+  font-family: "NYT", Helvetica, sans-serif;
+}
+
+.nyt-title a {
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: #000;
+}
+
+.subscription button {
+  color: #fff;
+  font-size: 0.6rem;
+  font-weight: bold;
+  height: 1.4rem;
+  width: auto;
+  background-color: #567b95;
+  border-color: #326891;
+  border-radius: 0.15rem;
+}
+
+.title-and-icons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: auto;
+  justify-content: space-around;
+}
+
+.article-title {
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  font-family: nyt-cheltenham, georgia, 'times new roman', times, serif;
+  font-style: italic;
+  border-bottom: 1px solid lightgray;
+  padding: 0.5rem;
+  margin-top: 4rem;
+  text-align: justify;
+}
+
+.social-icons-top {
+  text-align: justify;
+}
+
+.icon-bar {
+  margin: 0 0.3rem;
+}
+
+.circle {
+  background: #eee;
+  width: 1rem;
+  height: 0.8rem;
+  border-radius: 50%;
+  text-align: center;
+  vertical-align: middle;
+  padding: 0.3rem;
+}
+
+/* MAIN PHOTO */
+
+.main-article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.main-photo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-photo img {
+  width: 62vw;
+}
+
+.main-photo figcaption {
+  font-family: nyt-imperial, georgia, 'times new roman', times, serif;
+  font-size: 0.8rem;
+  margin-top: 0.4rem;
+}
+
+.infographic span {
+  font-size: 0.7rem;
+}
+
+.main-photo figcaption span {
+  font-size: 0.8rem;
+  color: #888;
+}
+
+/* ARTICLE SECTION */
+
+.article-link {
+  color: cornflowerblue;
+  text-decoration: none;
+}
+
+.part-one {
+  display: grid;
+  grid-template-columns: [left-panel-start] 35vw [left-panel-end] 30vw [right-panel-start] 35vw [right-panel-end];
+}
+
+.mid-panel-one p {
+  font-size: 1rem;
+}
+
+h4 {
+  font-weight: normal;
+  font-size: 0.8rem;
+}
+
+.nyt-advert::before,
+.nyt-advert::after {
+  content: "";
+  display: block;
+  width: 4rem;
+  height: 0.05rem;
+  background: lightgray;
+  margin: 0.05rem auto;
+}
+
+.nyt-advert p {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.6rem;
+}
+
+.infographic p {
+  margin-top: 0;
+  font-size: 0.7rem;
+}
+
+.editors-box p {
+  font-size: 0.8rem;
+}
+
+.paid-post p {
+  font-size: 0.7rem;
+  font-family: nyt-cheltenham, georgia, 'times new roman', times, serif;
+}
+
+.telescope-photo figcaption span {
+  color: gray;
+}
+
+.suggestion p {
+  font-size: 0.75rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.right-panel-adt p {
+  padding-top: 0.7rem;
+  margin-top: 0.7rem;
+  border-top: 1px solid lightgray;
+}
+
+.mid-panel-one > p:first-of-type {
+  font-weight: bold;
+}
+
+.nyt-advert p span {
+  font-weight: bold;
+}
+
+.editors-box p span {
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.5rem;
+}
+
+.nyt-advert a {
+  text-decoration: none;
+  font-weight: bold;
+  color: cornflowerblue;
+}
+
+.bottom-text a {
+  color: gray;
+}
+
+.suggested-line a {
+  text-decoration: none;
+  font-size: 0.7rem;
+  color: gray;
+}
+
+.suggestion a {
+  text-decoration: none;
+  color: cornflowerblue;
+  font-size: 0.7rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.right-panel-adt a {
+  text-decoration: none;
+  color: black;
+  font-size: 0.9rem;
+}
+
+.lined-links a {
+  color: #888;
+  margin: 0 0.7rem;
+  font-size: 0.52rem;
+}
+
+.space-container p a {
+  text-decoration: none;
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 0.8rem;
+}
+
+.editors-container p a {
+  text-decoration: none;
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 0.8rem;
+}
+
+.editors-box p a {
+  text-decoration: none;
+  color: black;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+.right-panel-adt a:hover {
+  color: gray;
+}
+
+.topics .column a {
+  font-size: 0.8rem;
+  margin: 0.2rem 0;
+}
+
+.editors-box p a:hover {
+  text-decoration: underline;
+}
+
+.paid-post p span {
+  font-weight: bold;
+  font-family: arial, helvetica, sans-serif;
+  font-size: 0.4rem;
+}
+
+.paid-link {
+  text-decoration: none;
+  color: black;
+}
+
+.yt-video figcaption span {
+  color: gray;
+}
+
+.infographic-image {
+  position: relative;
+}
+
+.infographic .universe {
+  position: absolute;
+  top: 14vh;
+  left: 0;
+}
+
+.infographic .universe span {
+  font-weight: bold;
+}
+
+.infographic .enough-time {
+  position: absolute;
+  top: 14vh;
+  left: 23vh;
+}
+
+.infographic .enough-time span {
+  font-weight: bold;
+}
+
+.infographic .distant-coffee {
+  position: absolute;
+  top: 14vh;
+  left: 46vh;
+}
+
+.infographic .distant-coffee span {
+  font-weight: bold;
+}
+
+.infographic .coffee-everywhere {
+  position: absolute;
+  top: 14vh;
+  left: 70vh;
+}
+
+.infographic .coffee-everywhere span {
+  font-weight: bold;
+}
+
+.infographic .still-not {
+  position: absolute;
+  top: 40vh;
+  left: 0;
+}
+
+.infographic .still-not span {
+  font-weight: bold;
+}
+
+.infographic .inflation {
+  position: absolute;
+  top: 40vh;
+  left: 23vh;
+}
+
+.infographic .inflation span {
+  font-weight: bold;
+}
+
+.infographic .fluctuation {
+  position: absolute;
+  top: 40vh;
+  left: 46vh;
+}
+
+.infographic .fluctuation span {
+  font-weight: bold;
+}
+
+.infographic .expansion {
+  position: absolute;
+  top: 40vh;
+  left: 70vh;
+}
+
+.infographic .expansion span {
+  font-weight: bold;
+}
+
+.mid-panel-one > p:first-of-type span {
+  text-decoration: underline;
+}
+
+.mid-panel-one > p:first-of-type span:hover {
+  text-decoration: none;
+}
+
+.inner-titles {
+  font-size: 1rem;
+}
+
+/* INFOGRAPHIC */
+
+.infographic {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: justify;
+  width: 46vw;
+  margin-bottom: 1.2rem;
+}
+
+.infographic h2 {
+  margin-bottom: 0.3rem;
+}
+
+.infographic img {
+  width: 46vw;
+}
+
+.infographic .description {
+  width: 10vw;
+  font-size: 0.6rem;
+}
+
+.infographic .quote::before {
+  display: block;
+  text-align: justify;
+  margin-top: 1rem;
+  content: "_________";
+  padding-bottom: 0.8rem;
+}
+
+.part-two {
+  display: grid;
+  grid-template-columns: [left-panel-start] 35vw [left-panel-end] 30vw [right-panel-start] 35vw [right-panel-end];
+}
+
+.yt-video {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.yt-video iframe {
+  border: none;
+}
+
+.yt-video figcaption {
+  font-size: 0.8rem;
+}
+
+.telescope-photo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60vh;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.telescope-photo img {
+  width: 60vh;
+}
+
+.telescope-photo figcaption {
+  text-align: justify;
+  font-size: 0.7rem;
+}
+
+.bottom-text {
+  font-size: 0.65rem;
+  color: gray;
+}
+
+.comments-button {
+  margin-top: 1rem;
+  margin-right: 1.5rem;
+  color: #fff;
+  font-size: 0.6rem;
+  font-weight: bold;
+  height: 2rem;
+  width: 15rem;
+  background-color: #567b95;
+  border-color: #326891;
+  border-radius: 0.15rem;
+}
+
+/* SUGGESTED SECTION */
+
+.additional-articles {
+  display: flex;
+  margin: 10vh 20vw;
+}
+
+.left-panel-adt {
+  display: flex;
+  flex-direction: column;
+}
+
+.suggested {
+  border-top: 1px solid black;
+  margin-right: 0.7rem;
+  padding-top: 0.5rem;
+  margin-bottom: 1.4rem;
+}
+
+.suggested-line {
+  display: flex;
+  justify-content: space-between;
+  margin: 0.5rem 0.7rem 0 0;
+}
+
+.suggested-line h2 {
+  margin-top: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.7rem;
+}
+
+.suggestion-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.suggestion {
+  border: 1px solid lightgray;
+  padding: 0.7rem;
+  width: 20vh;
+}
+
+.suggestion.daily {
+  margin-right: 0.7rem;
+}
+
+.suggestion.weekly {
+  margin-left: 0.7rem;
+}
+
+.suggestion img {
+  width: 7vh;
+}
+
+.suggestion h3 {
+  font-size: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 0;
+}
+
+.suggestion .sub {
+  font-size: 0.6rem;
+  margin: 0;
+}
+
+.suggestion i {
+  float: right;
+  outline: none;
+}
+
+/* MORE IN SPACE SECTION */
+
+.more-in-space {
+  border-top: 1px solid black;
+  margin-right: 0.7rem;
+  padding-top: 0.5rem;
+  font-family: arial, helvetica, sans-serif;
+  margin-bottom: 0.7rem;
+}
+
+.more-in-space h2 {
+  margin-top: 0.7rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.7rem;
+}
+
+.space-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.space-container div {
+  justify-content: space-between;
+  margin-top: 0.5rem;
+  width: 23vh;
+  height: auto;
+}
+
+.space-container .launch-date {
+  color: gray;
+  font-size: 0.5rem;
+}
+
+.space-container p a:hover {
+  color: gray;
+}
+
+.space-container .telescope-repair {
+  margin-right: 0.7rem;
+}
+
+.space-container .venus {
+  margin-left: 0.7rem;
+}
+
+.space-container .telescope-build {
+  margin-right: 0.7rem;
+}
+
+.space-container div figure {
+  margin: 0;
+}
+
+.space-container img {
+  width: 23vh;
+  height: auto;
+}
+
+.space-container figcaption {
+  float: right;
+  color: gray;
+  font-size: 0.5rem;
+}
+
+/* EDITOR'S PICK */
+
+.editors-pick {
+  border-top: 1px solid black;
+  margin-right: 0.7rem;
+  padding-top: 0.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.editors-pick h2 {
+  margin-top: 0.7rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.7rem;
+}
+
+.editors-container {
+  display: flex;
+}
+
+.editors-container div {
+  justify-content: space-between;
+  margin-top: 0.5rem;
+  width: 23vh;
+  height: auto;
+}
+
+.editors-container .launch-date {
+  color: gray;
+  font-size: 0.5rem;
+}
+
+.editors-container p a:hover {
+  color: gray;
+}
+
+.editors-container .russian-food {
+  margin-right: 0.7rem;
+}
+
+.editors-container .portrait-found {
+  margin-left: 0.7rem;
+}
+
+.editors-container div figure {
+  margin: 0;
+}
+
+.editors-container img {
+  width: 23vh;
+  height: auto;
+}
+
+.editors-container figcaption {
+  float: right;
+  color: gray;
+  font-size: 0.5rem;
+}
+
+/* MOST POPULAR PANEL */
+
+.right-panel-adt {
+  border-top: 1px solid black;
+  margin-right: 0.7rem;
+  margin-left: 0.7rem;
+  padding-top: 0.5rem;
+  margin-bottom: 1.4rem;
+}
+
+.right-panel-adt h2 {
+  margin-top: 0.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.7rem;
+}
+
+/* ASIDE */
+
+.right-panel {
+  margin: 1rem 2rem;
+  padding: 5rem 5rem 5rem 10rem;
+}
+
+.right-panel h4 {
+  font-weight: bold;
+  border-bottom: 1px solid lightgray;
+  text-align: justify;
+  margin: 1rem;
+  padding-bottom: 0.5rem;
+}
+
+.editors-box {
+  display: flex;
+  margin: 1rem;
+}
+
+.editors-box img {
+  width: 10vh;
+  height: 100%;
+  margin-right: 0.8rem;
+}
+
+.paid-post {
+  background-color: rgb(245, 245, 245);
+}
+
+/* FOOTER */
+
+footer {
+  margin: 10vw 30vh;
+  border-top: 3px double lightgray;
+}
+
+.title-row {
+  padding-top: 1rem;
+}
+
+.title-row h2 {
+  margin-top: 0;
+  font-size: 1.2rem;
+}
+
+footer .title-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.home-page {
+  font-size: 0.7rem;
+  color: cornflowerblue;
+}
+
+footer .topics {
+  display: flex;
+  justify-content: space-between;
+}
+
+.topics .column {
+  display: flex;
+  flex-direction: column;
+}
+
+.topics .column h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 0;
+  font-size: 0.6rem;
+}
+
+.topics .column .sub-column {
+  border-top: 1px solid lightgray;
+  display: flex;
+  flex-direction: column;
+}
+
+.topics .subscribe-column {
+  border-left: 1px solid lightgray;
+  padding-left: 0.7rem;
+}
+
+.topics .subscribe-column .home-deliv,
+.topics .subscribe-column .dig-sub,
+.topics .subscribe-column .games,
+.topics .subscribe-column .cooking {
+  font-weight: bold;
+}
+
+.topics .subscribe-column .cooking {
+  margin-bottom: 0.5rem;
+}
+
+.lined-links {
+  margin-top: 0.5rem;
+  border-top: 1px solid lightgray;
+}
+
+.subscribe-icon {
+  color: #000;
+}
+
+.t-icon {
+  height: 1rem;
+  width: 1rem;
+}
+
+.expand-bar {
+  border-top: 1px solid black;
+  padding-top: 0.7rem;
+  background-color: #fff;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  bottom: 0;
+  position: fixed;
+  height: 2rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
