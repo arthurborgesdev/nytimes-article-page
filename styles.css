@@ -404,6 +404,28 @@ h4 {
   color: gray;
 }
 
+.bottom-text {
+  font-size: 0.65rem;
+  color: gray;
+}
+
+.bottom-text a {
+  color: gray;
+}
+
+.comments-button {
+  margin-top: 1rem;
+  margin-right: 1.5rem;
+  color: #fff;
+  font-size: 0.6rem;
+  font-weight: bold;
+  height: 2rem;
+  width: 15rem;
+  background-color: #567b95;
+  border-color: #326891;
+  border-radius: 0.15rem;
+}
+
 /* SUGGESTED */
 
 .additional-articles {
