@@ -482,11 +482,52 @@ footer a:hover {
   border-radius: 0.15rem;
 }
 
+/* FORM SECTION */
+
+.form-container {
+  border: 1px solid lightgray;
+  width: 20vw;
+  margin: 5vh auto;
+  padding: 1.5rem 3rem;
+}
+
+.form-container h2 {
+  font-family: arial, helvetica, sans-serif;
+  font-size: 1.5rem;
+}
+
+.form-container div {
+  margin-bottom: 1.2rem;
+}
+
+#name,
+#email {
+  width: 10rem;
+  height: 1rem;
+}
+
+.form-container textarea {
+  vertical-align: top;
+  height: 5rem;
+  width: 15rem;
+}
+
+.form-container .button {
+  color: #fff;
+  font-size: 0.8rem;
+  font-weight: bold;
+  height: 1.4rem;
+  width: auto;
+  background-color: #567b95;
+  border-color: #326891;
+  border-radius: 0.15rem;
+}
+
 /* SUGGESTED SECTION */
 
 .additional-articles {
   display: flex;
-  margin: 10vh 20vw;
+  margin: 10vh 20vw 2vh 20vw;
 }
 
 .left-panel-adt {
@@ -723,7 +764,7 @@ footer a:hover {
 /* FOOTER */
 
 footer {
-  margin: 10vw 30vh;
+  margin: 5vw 30vh;
   border-top: 3px double lightgray;
 }
 

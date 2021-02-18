@@ -459,6 +459,38 @@
         <div class="right-panel-two"></div>
       </section>  
     </div>
+    <div class="form-container">
+      <form action="/review-subscription" method="POST">
+        <h2>Did you like the article? Want more?</h2>
+        <div>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="user_name" placeholder="Type your name" maxlength=20 required><br>
+        </div>
+        <div>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="user_email" placeholder="Your e-mail here" maxlength=20 required><br>
+        </div>
+        <div>
+          <label for="comments">Comments:</label>
+          <textarea id="comments" name="user_comments" placeholder="Type your comment here..." maxlength=250 required></textarea><br>
+        </div>
+        <div>
+          What is your overall opinion about this article?<br>
+          <input type="radio" id="positive" name="review" value="positive" checked> 
+          <label for="positive">Positive</label>Positive
+          <input type="radio" id="negative" name="review" value="negative">
+          <label for="positive">Negative</label>
+          <input type="radio" id="neutral" name="review" value="neutral">
+          <label for="positive">Neutral</label>
+        </div>
+        <div>
+          <input type="checkbox" name="subscription" value="subscribed" checked> I want to subscribe to the newsletter
+        </div>
+        <div>
+          <input class="button" type="submit" name="submit" value="Send">
+        </div>
+      </form>
+    </div>
     <div class="additional-articles">
       <div class="left-panel-adt">
         <section class="suggested">
