@@ -715,14 +715,82 @@ h4 {
 
 /* FOOTER */
 
+footer {
+  margin: 10vw 30vh;
+  border-top: 3px double lightgray;
+}
+
+.title-row {
+  padding-top: 1rem;
+}
+
+.title-row h2 {
+  margin-top: 0;
+  font-size: 1.2rem;
+}
+
+footer .title-row {
+  display: flex;
+  justify-content: space-between;
+}
+
 .home-page {
+  font-size: 0.7rem;
   color: cornflowerblue;
+}
+
+footer .topics {
+  display: flex;
+  justify-content: space-between;
+}
+
+.topics .column {
+  display: flex;
+  flex-direction: column;
+}
+
+.topics .column h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 0;
+  font-size: 0.6rem;
+}
+
+.topics .column a {
+  font-size: 0.8rem;
+  margin: 0.2rem 0;
+}
+
+.topics .column .sub-column {
+  border-top: 1px solid lightgray;
+  display: flex;
+  flex-direction: column;
+}
+
+.topics .subscribe-column {
+  border-left: 1px solid lightgray;
+  padding-left: 0.7rem;
+}
+
+.topics .subscribe-column .home-deliv,
+.topics .subscribe-column .dig-sub,
+.topics .subscribe-column .games,
+.topics .subscribe-column .cooking {
+  font-weight: bold;
+}
+
+.topics .subscribe-column .cooking {
+  margin-bottom: 0.5rem;
+}
+
+.lined-links {
+  margin-top: 0.5rem;
+  border-top: 1px solid lightgray;
 }
 
 .lined-links a {
   color: #888;
   margin: 0 0.7rem;
-  font-size: 0.6rem;
+  font-size: 0.50rem;
 }
 
 footer a:hover {
