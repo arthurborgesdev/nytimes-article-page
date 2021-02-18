@@ -482,6 +482,19 @@ footer a:hover {
   border-radius: 0.15rem;
 }
 
+/* FORM SECTION */
+
+.form-container {
+  border: 1px solid lightgray;
+  width: 20vw;
+  margin: 5vh auto;
+  padding: 1.5rem 3rem;
+}
+
+.form-container div {
+  margin-bottom: 1.2rem;
+}
+
 /* SUGGESTED SECTION */
 
 .additional-articles {
