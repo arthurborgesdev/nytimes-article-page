@@ -426,7 +426,7 @@ h4 {
   border-radius: 0.15rem;
 }
 
-/* SUGGESTED */
+/* SUGGESTED SECTION */
 
 .additional-articles {
   display: flex;
@@ -511,6 +511,23 @@ h4 {
 .suggestion i {
   float: right;
   outline: none;
+}
+
+/* MORE IN SPACE SECTION */ 
+
+.space-container {
+  display: flex;
+}
+
+.space-container div {
+  justify-content: space-between;
+  margin: 0.5rem 0.7rem 0 0;
+  width: 20vh;
+  height: auto;
+}
+
+.space-container img {
+
 }
 
 .right-panel-adt {
