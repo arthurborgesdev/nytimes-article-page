@@ -430,6 +430,7 @@ h4 {
 
 .additional-articles {
   display: flex;
+  margin: 10vh 20vw;
 }
 
 .left-panel-adt {
@@ -437,15 +438,36 @@ h4 {
   flex-direction: column;
 }
 
+.suggested {
+  border-top: 1px solid black;
+  margin-right: 0.7rem;
+}
+
 .suggested-line {
   display: flex;
   justify-content: space-between;
-  margin: 0.5rem 0;
+  margin: 0.5rem 0.7rem 0 0;
 }
 
 .suggested-line h2 {
   margin-top: 0;
-  margin-bottom: 0;
+  font-size: 0.9rem;
+}
+
+.suggested-line a {
+  text-decoration: none;
+  font-size: 0.7rem;
+  color: gray;
+}
+
+.suggestion-row {
+  display: flex;
+}
+
+.suggestion {
+  border: 1px solid lightgray;
+  padding: 0.7rem;
+  margin-right: 0.7rem;
 }
 
 .suggestion img {
