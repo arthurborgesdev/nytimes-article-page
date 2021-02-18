@@ -442,6 +442,7 @@ h4 {
   border-top: 1px solid black;
   margin-right: 0.7rem;
   padding-top: 0.5rem;
+  margin-bottom: 1.4rem;
 }
 
 .suggested-line {
@@ -452,7 +453,8 @@ h4 {
 
 .suggested-line h2 {
   margin-top: 0;
-  font-size: 0.9rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.7rem;
 }
 
 .suggested-line a {
@@ -515,19 +517,72 @@ h4 {
 
 /* MORE IN SPACE SECTION */ 
 
+.more-in-space {
+  border-top: 1px solid black;
+  margin-right: 0.7rem;
+  padding-top: 0.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.more-in-space h2 {
+  margin-top: 0.7rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.7rem;
+}
+
 .space-container {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .space-container div {
   justify-content: space-between;
-  margin: 0.5rem 0.7rem 0 0;
-  width: 20vh;
+  margin-top: 0.5rem; 
+  width: 23vh;
   height: auto;
 }
 
-.space-container img {
+.space-container p a {
+  text-decoration: none;
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 0.8rem;
+}
 
+.space-container .launch-date {
+  color: gray;
+  font-size: 0.5rem;
+}
+
+.space-container p a:hover {
+  color: gray;
+}
+
+.space-container .telescope-repair {
+  margin-right: 0.7rem;
+}
+
+.space-container .venus {
+  margin-left: 0.7rem;
+}
+
+.space-container .telescope-build {
+  margin-right: 0.7rem;
+}
+
+.space-container div figure {
+  margin: 0;
+}
+
+.space-container img {
+  width: 23vh;
+  height: auto;
+}
+
+.space-container figcaption {
+  float: right;
+  color: gray;
+  font-size: 0.5rem;
 }
 
 .right-panel-adt {
