@@ -125,6 +125,10 @@ h1 {
   margin-top: 0.4rem;
 }
 
+.infographic span {
+  font-size: 0.7rem;
+}
+
 .main-photo figcaption span {
   font-size: 0.8rem;
   color: #888;
@@ -151,15 +155,14 @@ h4 {
   font-size: 0.8rem;
 }
 
-.nyt-advert:before, 
-.nyt-advert:after {
+.nyt-advert::before,
+.nyt-advert::after {
   content: "";
   display: block;
   width: 4rem;
   height: 0.05rem;
   background: lightgray;
   margin: 0.05rem auto;
-
 }
 
 .nyt-advert p {
@@ -173,10 +176,28 @@ h4 {
   font-size: 0.7rem;
 }
 
+.editors-box p {
+  font-size: 0.8rem;
+}
+
 .paid-post p {
-  font-weight: bold;
+  font-size: 0.7rem;
+  font-family: nyt-cheltenham, georgia, 'times new roman', times, serif;
+}
+
+.telescope-photo figcaption span {
+  color: gray;
+}
+
+.suggestion p {
+  font-size: 0.75rem;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 0.5rem;
+}
+
+.right-panel-adt p {
+  padding-top: 0.7rem;
+  margin-top: 0.7rem;
+  border-top: 1px solid lightgray;
 }
 
 .mid-panel-one > p:first-of-type {
@@ -187,19 +208,78 @@ h4 {
   font-weight: bold;
 }
 
-.editors-box p {
-  font-size: 0.8rem;
-}
-
 .editors-box p span {
   font-weight: bold;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 0.5rem;
 }
 
+.nyt-advert a {
+  text-decoration: none;
+  font-weight: bold;
+  color: cornflowerblue;
+}
+
+.bottom-text a {
+  color: gray;
+}
+
+.suggested-line a {
+  text-decoration: none;
+  font-size: 0.7rem;
+  color: gray;
+}
+
+.suggestion a {
+  text-decoration: none;
+  color: cornflowerblue;
+  font-size: 0.7rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.right-panel-adt a {
+  text-decoration: none;
+  color: black;
+  font-size: 0.9rem;
+}
+
+.lined-links a {
+  color: #888;
+  margin: 0 0.7rem;
+  font-size: 0.52rem;
+}
+
+.space-container p a {
+  text-decoration: none;
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 0.8rem;
+}
+
+.editors-container p a {
+  text-decoration: none;
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 0.8rem;
+}
+
 .editors-box p a {
   text-decoration: none;
   color: black;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+.right-panel-adt a:hover {
+  color: gray;
+}
+
+.topics .column a {
+  font-size: 0.8rem;
+  margin: 0.2rem 0;
 }
 
 .editors-box p a:hover {
@@ -208,14 +288,8 @@ h4 {
 
 .paid-post p span {
   font-weight: bold;
-  font-weight: Arial, Helvetica, sans-serif;;
+  font-family: arial, helvetica, sans-serif;
   font-size: 0.4rem;
-}
-
-.paid-post p {
-  font-size: 0.7rem;
-  font-weight: normal;
-  font-family: nyt-cheltenham, georgia, 'times new roman', times, serif;
 }
 
 .paid-link {
@@ -319,12 +393,6 @@ h4 {
   text-decoration: none;
 }
 
-.nyt-advert a {
-  text-decoration: none;
-  font-weight: bold;
-  color: cornflowerblue;
-}
-
 .inner-titles {
   font-size: 1rem;
 }
@@ -352,16 +420,12 @@ h4 {
   font-size: 0.6rem;
 }
 
-.infographic span {
-  font-size: 0.7rem;
-}
-
-.infographic .quote:before {
+.infographic .quote::before {
   display: block;
   text-align: justify;
   margin-top: 1rem;
   content: "_________";
-  padding-bottom: 0.8rem; 
+  padding-bottom: 0.8rem;
 }
 
 .part-two {
@@ -400,16 +464,8 @@ h4 {
   font-size: 0.7rem;
 }
 
-.telescope-photo figcaption span {
-  color: gray;
-}
-
 .bottom-text {
   font-size: 0.65rem;
-  color: gray;
-}
-
-.bottom-text a {
   color: gray;
 }
 
@@ -457,12 +513,6 @@ h4 {
   font-size: 0.7rem;
 }
 
-.suggested-line a {
-  text-decoration: none;
-  font-size: 0.7rem;
-  color: gray;
-}
-
 .suggestion-row {
   display: flex;
   justify-content: space-between;
@@ -492,22 +542,9 @@ h4 {
   margin-top: 0;
 }
 
-.suggestion p {
-  font-size: 0.75rem;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
 .suggestion .sub {
   font-size: 0.6rem;
   margin: 0;
-}
-
-.suggestion a {
-  text-decoration: none;
-  color: cornflowerblue;
-  font-size: 0.7rem;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: bold;
 }
 
 .suggestion i {
@@ -515,13 +552,13 @@ h4 {
   outline: none;
 }
 
-/* MORE IN SPACE SECTION */ 
+/* MORE IN SPACE SECTION */
 
 .more-in-space {
   border-top: 1px solid black;
   margin-right: 0.7rem;
   padding-top: 0.5rem;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: arial, helvetica, sans-serif;
   margin-bottom: 0.7rem;
 }
 
@@ -538,16 +575,9 @@ h4 {
 
 .space-container div {
   justify-content: space-between;
-  margin-top: 0.5rem; 
+  margin-top: 0.5rem;
   width: 23vh;
   height: auto;
-}
-
-.space-container p a {
-  text-decoration: none;
-  color: black;
-  font-family: 'Times New Roman', Times, serif;
-  font-size: 0.8rem;
 }
 
 .space-container .launch-date {
@@ -607,16 +637,9 @@ h4 {
 
 .editors-container div {
   justify-content: space-between;
-  margin-top: 0.5rem; 
+  margin-top: 0.5rem;
   width: 23vh;
   height: auto;
-}
-
-.editors-container p a {
-  text-decoration: none;
-  color: black;
-  font-family: 'Times New Roman', Times, serif;
-  font-size: 0.8rem;
 }
 
 .editors-container .launch-date {
@@ -662,25 +685,9 @@ h4 {
 }
 
 .right-panel-adt h2 {
-  margin-top: 0.5rem 0;
+  margin-top: 0.5rem;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 0.7rem;
-}
-
-.right-panel-adt p {
-  padding-top: 0.7rem;
-  margin-top: 0.7rem;
-  border-top: 1px solid lightgray;
-}
-
-.right-panel-adt a {
-  text-decoration: none;
-  color: black;
-  font-size: 0.9rem;
-}
-
-.right-panel-adt a:hover {
-  color: gray;
 }
 
 /* ASIDE */
@@ -755,11 +762,6 @@ footer .topics {
   font-size: 0.6rem;
 }
 
-.topics .column a {
-  font-size: 0.8rem;
-  margin: 0.2rem 0;
-}
-
 .topics .column .sub-column {
   border-top: 1px solid lightgray;
   display: flex;
@@ -787,16 +789,6 @@ footer .topics {
   border-top: 1px solid lightgray;
 }
 
-.lined-links a {
-  color: #888;
-  margin: 0 0.7rem;
-  font-size: 0.52rem;
-}
-
-footer a:hover {
-  text-decoration: underline;
-}
-
 .subscribe-icon {
   color: #000;
 }
@@ -818,4 +810,3 @@ footer a:hover {
   height: 2rem;
   font-family: Arial, Helvetica, sans-serif;
 }
-
