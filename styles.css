@@ -486,7 +486,7 @@ footer a:hover {
 
 .additional-articles {
   display: flex;
-  margin: 10vh 20vw;
+  margin: 10vh 20vw 2vh 20vw;
 }
 
 .left-panel-adt {
@@ -723,7 +723,7 @@ footer a:hover {
 /* FOOTER */
 
 footer {
-  margin: 10vw 30vh;
+  margin: 5vw 30vh;
   border-top: 3px double lightgray;
 }
 
